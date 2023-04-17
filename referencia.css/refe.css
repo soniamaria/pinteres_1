@@ -1,0 +1,162 @@
+* {
+    margin: 5px;
+
+}
+h1:hover
+{ 
+    background-color: black ;
+  border-radius: 50px ;
+    color: white;
+    padding: 1%;
+}
+.p_logo:hover
+{ 
+    background-color: gainsboro ;
+  border-radius: 50px;
+padding: .5%;
+}
+.campana:hover
+{ 
+    background-color: gainsboro ;
+  border-radius: 50%;
+  
+ padding: .5%;
+}
+.mensaje:hover
+{ 
+    background-color: gainsboro ;
+  border-radius: 50px;
+  padding: .5%;
+}
+.circle:hover
+{ 
+    background-color: gainsboro ;
+  border-radius: 50px;
+  padding: .5%;
+}
+nav
+{
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body
+{
+    margin-top: 90px;
+}
+
+.p_logo
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;
+    background-color: transparent;
+    cursor: pointer;
+   
+
+
+}
+h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    height: 20px;
+    color:  rgb(33, 25, 34);
+    cursor: pointer;
+
+}
+#navlist {
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 2px;
+}
+.campana
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    float: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.mensaje
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: auto;
+}
+#crear1
+{
+    width: 20px;
+   border-color: transparent ;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+#perfil
+{
+    width: 20px;
+   border-color: transparent ;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+
+.search
+input
+{
+    height: 50px;
+    width: 800px;
+    background-color: #e2e2e2;
+    border-radius: 24px;
+    border-color: transparent;
+    
+  
+}
+.circle
+input
+{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: #e2e2e2;
+    border-color: transparent;
+    cursor: pointer;
+   }
+
+img
+{
+border-radius: 20px;
+    max-width: 100%;
+    margin-bottom: 1.5em;
+    outline: 30px ;
+    
+}
+   .figure
+    {
+        columns:5 200px;
+        column-gap: 1.5em;
+       }
+
+       
+hr
+{
+    margin-left: auto;
+    margin-right: auto;
+   }
